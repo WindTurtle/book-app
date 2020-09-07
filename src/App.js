@@ -4,6 +4,7 @@ import { BrowserRouter, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import { HomeTemplate } from "./templates/HomeTemplate";
 import DetailBook from "./pages/DetailBook";
+import LoginPage from "./pages/LoginPage";
 function App() {
   return (
     <BrowserRouter>
@@ -15,6 +16,7 @@ function App() {
           path="/detail-book/:bookid"
           Component={DetailBook}
         />
+        <HomeTemplate exact path="/login" Component={LoginPage} />
       </Switch>
     </BrowserRouter>
   );

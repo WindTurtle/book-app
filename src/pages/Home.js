@@ -31,7 +31,6 @@ export default function Home() {
     const results = listBook.filter((book) => {
       return book.title.toLowerCase().includes(newFilter.toLowerCase());
     });
-    console.log(results);
     setListBookSearch(results);
   }, [newFilter, listBook]);
 

@@ -25,7 +25,7 @@ export default function Search(props) {
     }, 300);
   };
   return (
-    <div className="d-flex justify-content-center my-2">
+    <div className="search-form d-flex justify-content-center my-5">
       <input
         className="inputSearch"
         type="text"

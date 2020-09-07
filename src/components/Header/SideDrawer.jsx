@@ -15,7 +15,7 @@ export default function SideDrawer(props) {
           </NavLink>
         </li>
         <li className="side-drawer__item">
-          <NavLink className="side-drawer__link" to="/">
+          <NavLink className="side-drawer__link" to="/login">
             Users
           </NavLink>
         </li>
